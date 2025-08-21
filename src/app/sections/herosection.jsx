@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
 
 const images = [
- `${prefix}/rajasthan1.jpg`,
+ `/banjareyindia/rajasthan1.jpg`,
   `${prefix}/rajasthan2.jpg`,
   `${prefix}/rajasthan3.jpg`,
   `${prefix}/rajasthan4.jpg`,
