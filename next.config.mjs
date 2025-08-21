@@ -1,10 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // since GitHub Pages only supports static export
-  basePath: "/banjareyindia", // your repo name
+  output: "export", 
+  basePath: "/banjareyindia",
   assetPrefix: "/banjareyindia/",
   images: {
-    unoptimized: true, // because static export disables Next Image optimization
+    unoptimized: true, 
   },
 };
 
