@@ -1,11 +1,10 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: "export", // 👈 important for static export
+  reactStrictMode: true,
   images: {
-    unoptimized: true, // 👈 required, since GitHub Pages doesn’t support Next.js Image optimization
+    unoptimized: true,
   },
-  basePath: "/banjareyindia", // 👈 repo name
-  assetPrefix: "/banjareyindia/",
+  output: "export",
 };
 
-module.exports = nextConfig;
+export default nextConfig; // ✅ ESM way
