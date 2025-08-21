@@ -96,7 +96,7 @@ export default function Navbar() {
             }}
           >
             <Image
-              src="/banjareyindia/logo.png"
+              src="https://mayur25-cpu.github.io/banjareyindia/logo.png"
               alt="Banjarey Logo"
               width={100}
               height={80}
