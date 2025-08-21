@@ -95,20 +95,19 @@ export default function Navbar() {
               userSelect: "none",
             }}
           >
-            <Image
-              src="https://mayur25-cpu.github.io/banjareyindia/logo.png"
-              alt="Banjarey Logo"
-              width={100}
-              height={80}
-              style={{
-                borderRadius: 20,
-                boxShadow: "0 6px 18px rgba(0,0,0,0.12)",
-                marginBottom: 6,
-                transition: "all 0.4s ease",
-                transform: scrolled ? "scale(0.7)" : "scale(1)",
-              }}
-              priority
-            />
+         <img
+  src="https://mayur25-cpu.github.io/banjareyindia/logo.png"
+  alt="Banjarey Logo"
+  width={100}
+  height={80}
+  style={{
+    borderRadius: 20,
+    boxShadow: "0 6px 18px rgba(0,0,0,0.12)",
+    marginBottom: 6,
+    transition: "all 0.4s ease",
+    transform: scrolled ? "scale(0.7)" : "scale(1)",
+  }}
+/>
             <Typography
               variant="h5"
               sx={{
