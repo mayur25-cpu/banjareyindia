@@ -240,7 +240,7 @@ export default function Navbar() {
             }}
           >
             <Image
-              src="/logo.png"
+              src="/banjareyindia/logo.png"
               alt="Banjarey Logo"
               width={80}
               height={60}
