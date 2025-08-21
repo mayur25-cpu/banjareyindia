@@ -3,12 +3,14 @@
 import { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
+const prefix = process.env.NEXT_PUBLIC_BASE_PATH || "";
+
 const images = [
-  "/rajasthan1.jpg",
-  "/rajasthan2.jpg",
-  "/rajasthan3.jpg",
-  "/rajasthan4.jpg",
-  "/rajasthan5.jpg",
+ `${prefix}/rajasthan1.jpg`,
+  `${prefix}/rajasthan2.jpg`,
+  `${prefix}/rajasthan3.jpg`,
+  `${prefix}/rajasthan4.jpg`,
+  `${prefix}/rajasthan5.jpg`,
 ];
 
 export default function Hero() {
